@@ -84,5 +84,26 @@ class GameView(var c :Context,var gameTask: Tarea):View(c)
         invalidate()
     }
 
-    
+    override fun onTouchEvent(event: MotionEvent?): Boolean {
+        when(event!!.action){
+            MotionEvent.ACTION_DOWN->{
+                val x1= event.x
+                if(x1 < viewWidth/2){
+                    if(myCarPosition>0){
+                        myCarPosition--
+                    }
+                }
+                if(x1>viewWidth/2){
+                    if(myCarPosition>2){
+                        myCarPosition++
+                    }
+                }
+                invalidate()
+            }
+            MotionEvent.ACTION_UP->{
+
+            }
+        }
+     return true
+    }
 }
