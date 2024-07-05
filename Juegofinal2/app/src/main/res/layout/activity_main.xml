@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
 
 xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -11,21 +11,20 @@ android:id="@+id/rootLayout"
 android:gravity="center"
 tools:context=".MainActivity">
 
-<TextView
-    android:id="@+id/score"
-    android:textSize="28sp"
-    android:text="@string/Puntuacion"
-    android:textAlignment="center"
-    android:layout_margin="15dp"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="394dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
+        android:text="@string/Puntuacion"
+        android:textAlignment="center"
+        android:textSize="28sp" />
 
 <Button
     android:id="@+id/startBtn"
     android:layout_margin="15dp"
     android:gravity="center"
     android:text="@string/Inicio"
-    app:backgroudTint="#E61212"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>
 
