@@ -2,23 +2,25 @@ package com.example.juegofinal2
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
-
 import org.junit.Test
 import org.junit.runner.RunWith
 
 import org.junit.Assert.*
 
 /**
- * Instrumented test, which will execute on an Android device.
+ * Prueba instrumentada, que se ejecutará en un dispositivo Android.
  *
- * See [testing documentation](http://d.android.com/tools/testing).
+ * Consulta la [documentación sobre pruebas](http://d.android.com/tools/testing).
  */
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
+
+    // Método de prueba para verificar el contexto de la aplicación
     @Test
     fun useAppContext() {
-        // Context of the app under test.
+        // Obtiene el contexto de la aplicación en prueba
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
+        // Verifica que el nombre del paquete sea el esperado
         assertEquals("com.example.juegofinal2", appContext.packageName)
     }
 }
