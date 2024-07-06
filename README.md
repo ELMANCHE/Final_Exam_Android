@@ -1,2 +1,3 @@
-# Final_Exam_Android
- 
+# Sobre nuestro proyecto:
+
+Bienvenido a nuestro proyecto,que es una aplicación móvil desarrollada para la plataforma Android utilizando Android Studio y Kotlin. En este juego, te encontrarás conduciendo un auto que debe esquivar otros vehículos que vienen en dirección contraria. El objetivo es simple pero desafiante: toca la pantalla para mover tu auto hacia la derecha o hacia la izquierda y evita chocar con los autos enemigos. A medida que avanzas, la velocidad de los autos enemigos aumenta, incrementando la dificultad y poniendo a prueba tus reflejos. El juego termina cuando tu auto choca, momento en el que se muestra tu puntaje final basado en la cantidad de autos esquivados. Nuestro juego de Autos promete horas de diversión para jugadores de todas las edades. ¡Desafía tus habilidades y compite por alcanzar el puntaje más alto! 
